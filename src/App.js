@@ -12,6 +12,7 @@ class App extends Component {
     return (
       <>
         <div>
+          {/* this is like anchor tag the to will go to the path of Route  */}
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/contact">Contact</NavLink>
