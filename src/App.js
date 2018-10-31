@@ -12,7 +12,10 @@ class App extends Component {
     return (
       <>
         <div>
-          {/* this is like anchor tag the to will go to the path of Route  */}
+          {/* 
+          This  Navlink is like a anchor tag the to is where they're gonna go 
+          it has to match the route path !
+           */}
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/contact">Contact</NavLink>
